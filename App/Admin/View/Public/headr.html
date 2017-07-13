@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <!-- Meta, title, CSS, favicons, etc. -->
+  <meta charset="utf-8">
+  <title>后台管理系统</title>
+  <meta name="keywords" content="Admin">
+  <meta name="description" content="Admin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script type="text/javascript" charset="utf-8" src="__UM__/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__UM__/ueditor.all.min.js"> </script>
+    <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+    <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+    <script type="text/javascript" charset="utf-8" src="__UM__/lang/zh-cn/zh-cn.js"></script>
+  <!-- Core CSS  -->
+  <link rel="stylesheet" type="text/css" href="__CSS__/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="__CSS__/glyphicons.min.css">
+  <!-- Theme CSS -->
+  <link rel="stylesheet" type="text/css" href="__CSS__/theme.css">
+  <link rel="stylesheet" type="text/css" href="__CSS__/pages.css">
+  <link rel="stylesheet" type="text/css" href="__CSS__/plugins.css">
+  <link rel="stylesheet" type="text/css" href="__CSS__/responsive.css">
+
+  <!-- Boxed-Layout CSS -->
+  <link rel="stylesheet" type="text/css" href="__CSS__/boxed.css">
+
+  <!-- Demonstration CSS -->
+  <link rel="stylesheet" type="text/css" href="__CSS__/demo.css">
+
+  <!-- Your Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="__CSS__/custom.css">
+  
+  <!-- Core Javascript - via CDN --> 
+  <script type="text/javascript" src="__JS__/jquery.min.js"></script> 
+  <script type="text/javascript" src="__JS__/jquery-ui.min.js"></script> 
+  <script type="text/javascript" src="__JS__/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="__JS__/uniform.min.js"></script> 
+  <script type="text/javascript" src="__JS__/main.js"></script>
+  <script type="text/javascript" src="__JS__/custom.js"></script> 
+</head>
+
+<body>
+<!-- Start: Header -->
+<header class="navbar navbar-fixed-top" style="background-image: none; background-color:#41494e;">
+  <div class="pull-left"> <a class="navbar-brand" href="#">
+    <div class="navbar-logo"><img src="__IMG__/logo.png" alt="logo" style="width:150%;"></div>
+    </a> </div>
+  <div class="pull-right header-btns">
+    <a class="user"><span class="glyphicons glyphicon-user"></span><?php echo $_SESSION['username'];?></a>
+    <a href="<?php echo U("Login/logout");?>" class="btn btn-default btn-gradient"style="background:#14abd8;color:#f9f9f9;" type="button">退出</a>
+  </div>
+</header>
+<!-- End: Header -->
+
+<!-- Start: Main -->
+<div id="main"> 
+    <!-- Start: Sidebar -->
+  <aside id="sidebar" class="affix">
+    <div id="sidebar-search">
+    		<div class="sidebar-toggle"><div style="width:100%;margin:auto;"><img width="80%"src="__IMG__/icon_06.png"></div></div>
+    </div>
+    <div id="sidebar-menu">
+      <ul class="nav sidebar-nav">
+        <li> 
+          <a  class="back" href="<?php echo U("Map/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="__IMG__/icon_03.png" style="margin-top:15px;"></div></span><span class="sidebar-title">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</span></a>
+        </li>
+		    <li>
+          <a class="back" href="<?php echo U("User/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="__IMG__/icon_10.png" style="margin-top:15px;"></div></span><span class="sidebar-title">用户列表</span></a>
+        </li>
+		    <li>
+          <a class="back" href="<?php echo U("Dustbin/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="__IMG__/icon_10.png" style="margin-top:15px;"></div></span><span class="sidebar-title">设备列表</span></a>
+        </li>
+
+		<script>
+		    $('.back').hover(function(){
+			  $(this).css("background","#1ed9f5");
+			},function(){
+			  $(this).css("background","#42485b");
+			});
+		</script>
+      </ul>
+    </div>
+  </aside>
+  <!-- End: Sidebar -->  
+  <!-- End: Sidebar -->  

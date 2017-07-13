@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+ <li class="active" data-lng="{$lng}" data-lat="{$lat}" data-address="{$address}">
+   <div>
+      <span class="icon-map-marker"></span>当前位置
+   </div>
+   <div>
+      地址：{$address}
+   </div>
+</li>
+<foreach name="list" item="item">
+<li data-lng="{$item.info.location.lng}" data-lat="{$item.info.location.lat}" data-address="{$item.info.address}">
+   <div>
+      <span class="icon-map-marker"></span>{$item.info.name}
+   </div>
+   <div>
+      地址：{$item.info.address}
+   </div>
+</li>
+</foreach>
+<script>
+   $(function(){
+      $(".map_list ul>li").bind('click', function(){
+         var lng = $(this).attr('data-lng');
+         var lat = $(this).attr('data-lat');
+         var address = $(this).attr('data-address');
+         set_address(lng, lat, address);
+      });
+   });
+</script>
+</body>
+</html>

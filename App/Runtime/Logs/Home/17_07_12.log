@@ -1,0 +1,2887 @@
+[ 2017-07-12T08:46:37+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000202s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008721s ]
+NOTIC: [8] Undefined index: lng C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 8 行.
+NOTIC: [8] Undefined index: lat C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 9 行.
+NOTIC: [8] Undefined index: address C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: full C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 11 行.
+
+[ 2017-07-12T08:48:16+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006155s ]
+NOTIC: [8] Undefined index: lng C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 8 行.
+NOTIC: [8] Undefined index: lat C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 9 行.
+NOTIC: [8] Undefined index: address C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: full C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000830s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006425s ]
+
+[ 2017-07-12T09:53:45+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002870s ]
+NOTIC: [8] Undefined index: address C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002454s ]
+
+[ 2017-07-12T10:01:31+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+NOTIC: [8] Undefined index: address C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003271s ]
+
+[ 2017-07-12T10:05:48+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+NOTIC: [8] Undefined index: address C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002676s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001649s ]
+
+[ 2017-07-12T10:05:54+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+NOTIC: [8] Undefined index: address C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000970s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002679s ]
+
+[ 2017-07-12T10:08:10+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003708s ]
+NOTIC: [8] Undefined index: address C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000829s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2017-07-12T10:10:58+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005030s ]
+NOTIC: [8] Undefined index: address C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009981s ]
+
+[ 2017-07-12T10:11:32+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+NOTIC: [8] Undefined index: address C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000520s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004464s ]
+
+[ 2017-07-12T10:13:48+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005722s ]
+NOTIC: [8] Undefined index: address C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full C:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004143s ]
+
+[ 2017-07-12T10:22:15+08:00 ] ::1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\ThinkPHP\App\Home\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T10:22:17+08:00 ] ::1 /thinkphp/index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T10:22:28+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T10:28:22+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T10:31:14+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T10:39:45+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: lat D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: lng D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T10:40:35+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=url
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: lat D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: lng D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T10:45:46+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:47:27+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:47:54+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:48:18+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:51:25+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:51:42+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:54:27+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:54:57+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:54:58+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:55:51+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:56:31+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:57:09+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:57:51+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:57:52+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:58:34+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:58:36+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T10:58:39+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T11:06:29+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T11:06:31+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T11:06:32+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T11:06:43+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T11:07:25+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T11:07:37+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+
+[ 2017-07-12T11:08:23+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T11:12:40+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T11:12:41+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T11:15:24+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T11:24:23+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T11:24:26+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T11:24:42+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T11:24:45+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T11:26:14+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T11:26:51+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T11:27:16+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 12 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T12:44:38+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 14 行.
+ERR: 没有定义数据库配置
+
+[ 2017-07-12T12:46:23+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 14 行.
+ERR: 没有定义数据库配置
+
+[ 2017-07-12T12:46:25+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 14 行.
+ERR: 没有定义数据库配置
+
+[ 2017-07-12T12:51:08+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: INSERT INTO `fd_dustbin_map` (`lid`,`lat`,`lng`) VALUES (0,113.904511,22.57112) [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T13:32:27+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid={$lid} ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `fd_dustbin_map` WHERE ( lid={$lid} ) LIMIT 1  
+SQL: INSERT INTO `fd_dustbin_map` (`lid`,`lat`,`lng`) VALUES (0,113.904511,22.57112) [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T13:33:45+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid={$lid} ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '} ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `fd_dustbin_map` WHERE ( lid={$lid} ) LIMIT 1  
+
+[ 2017-07-12T13:36:21+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=0 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-07-12T13:36:44+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=0 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T14:04:23+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T14:26:30+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T14:26:47+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=0 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `fd_dustbin_map` (`lid`,`lat`,`lng`,`position`) VALUES (0,113.904511,22.57112,'113.904511,22.57112') [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T14:30:07+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T14:33:02+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `fd_dustbin_map` (`lid`,`lat`,`lng`,`position`) VALUES (1,113.904513,22.57114,'113.904513,22.57114') [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T14:35:40+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.001000s ]
+
+[ 2017-07-12T14:37:49+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+
+[ 2017-07-12T14:44:23+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T14:46:04+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T14:47:09+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.001000s ]
+
+[ 2017-07-12T14:49:33+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T14:49:42+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T14:50:35+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T14:50:39+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T14:51:05+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T14:53:04+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:04:33+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:07:17+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:07:39+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:08:00+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:08:08+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:08:55+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:09:32+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:10:49+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:12:18+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:16:39+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:17:24+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:18:07+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:21:15+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:22:03+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:24:26+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:25:26+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:26:32+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:32:31+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:33:29+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:35:58+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:38:34+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:39:24+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:39:29+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:40:21+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:40:28+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:41:20+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:41:57+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:43:23+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: markerArr D:\wamp\www\ThinkPHP\App\Runtime\Cache\Home\e7cb9896fc137d442ef7a3230b2d049a.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:46:00+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:46:05+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:46:44+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:48:36+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:49:34+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:50:09+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:50:13+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:50:52+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:51:22+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:52:33+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:54:08+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:54:49+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:57:30+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T15:57:32+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:57:33+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T15:59:05+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T16:00:09+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T16:02:19+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T16:07:36+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T16:08:09+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T16:08:59+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T16:09:30+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T16:09:50+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T16:10:12+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T16:11:34+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T16:13:24+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T16:13:44+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 76 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 79 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 80 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T16:19:19+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T16:27:02+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 10 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 13 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=0 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-12T16:49:37+08:00 ] ::1 /thinkphp/index.php?m=Home&c=map&a=maps
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: lid D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 46 行.
+NOTIC: [8] Undefined index: address D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 49 行.
+NOTIC: [8] Undefined index: full D:\wamp\www\ThinkPHP\App\Home\Controller\MapController.class.php 第 50 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `fd_dustbin_map` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map` WHERE ( lid=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `fd_dustbin_map`  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-12T20:39:21+08:00 ] ::1 /thinkphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\ThinkPHP\App\Home\Controller\IndexController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002187s ]
+
+[ 2017-07-12T20:39:23+08:00 ] ::1 /thinkphp/index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002413s ]
+
+[ 2017-07-12T20:39:48+08:00 ] ::1 /thinkphp/index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002796s ]
+
+[ 2017-07-12T20:40:07+08:00 ] ::1 /thinkphp/index.php?m=Home&c=Test&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004588s ]
+
