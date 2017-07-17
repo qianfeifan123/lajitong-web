@@ -274,7 +274,9 @@ li {
   margin-bottom: 7px; }
 
 a {
-  color: #fff; }
+  color: #0000; 
+  padding-bottom: 10px;
+}
 
 a:hover {
   color: #d9534f; }

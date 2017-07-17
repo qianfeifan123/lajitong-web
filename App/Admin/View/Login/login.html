@@ -69,7 +69,7 @@
               <div class="clearfix"></div>
             </div>
             <div class="form-group margin-bottom-none" style="padding-top: 10px;">
-              <a href="<?php echo U("Login/register");?>" class="btn btn-primary pull-right" />注 册</a>
+              <a href="<?php echo U("Login/register");?>" class="pull-right"/>没有账号？去注册</a>
             </div>
           </div>
         </form>

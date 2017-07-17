@@ -117,31 +117,28 @@
                                 <div class="col-md-7">
                                     <div class="form-group">
                                         <div class="input-group"><span class="input-group-addon">编号</span>
-                                            <input type="text" name="phone" value="" class="form-control" onkeyup="this.value=this.value.replace(/\D/g,'')" maxlength="11">
+                                            <input type="text" name="phone" value="" placeholder="11位手机号码" class="form-control" onkeyup="this.value=this.value.replace(/\D/g,'')" maxlength="11" onblur="return checkNum()">
+                                            <span id="warn" style="color:red;"></span>
                                         </div>
                                     </div>
 									  <div class="form-group">
                                         <div class="input-group"><span class="input-group-addon">经度</span>
-                                            <input type="text" name="lat" value="" class="form-control" onkeyup="this.value=this.value.replace(/[^\d.]/g,'')"  maxlength="10">
+                                            <input type="text" name="lat" value="" placeholder="东经" class="form-control" onkeyup="this.value=this.value.replace(/[^\d.]/g,'')"  maxlength="10">
                                         </div>
                                     </div>
 									
                                     <div class="form-group">
                                         <div class="input-group"><span class="input-group-addon">纬度</span>
-                                           <input type="text" name="lng" value="" class="form-control" onkeyup="this.value=this.value.replace(/[^\d.]/g,'')"  maxlength="9"> 
+                                           <input type="text" name="lng" value="" placeholder="北纬" class="form-control" onkeyup="this.value=this.value.replace(/[^\d.]/g,'')"  maxlength="9"> 
                                         </div>
                                     </div>
                                     <div class="input-group"><span class="input-group-addon">容量状态</span>
-                                        已满<input style="width:16px;height: 16px;" type="radio" name="full" value="1"
-                                                   class="form-control"><br/>
-                                        未满<input style="width:16px;height: 16px;" type="radio" name="full" value="0"
-                                                   class="form-control">       
+                                        已满<input style="width:16px;height: 16px;" type="radio" name="full" value="1"><br/>
+                                        未满<input style="width:16px;height: 16px;" type="radio" name="full" value="0">       
                                     </div>
                                     <div class="input-group"><span class="input-group-addon">报警状态</span>
-                                        报警<input style="width:16px;height: 16px;" type="radio" name="warning" value="1"
-                                                   class="form-control"><br/>
-                                        正常<input style="width:16px;height: 16px;" type="radio" name="warning" value="0"
-                                                   class="form-control">       
+                                        报警<input style="width:16px;height: 16px;" type="radio" name="warning" value="1"><br/>
+                                        正常<input style="width:16px;height: 16px;" type="radio" name="warning" value="0">       
                                     </div>
                                 </div>
                                 <div class="col-md-7">
@@ -152,6 +149,17 @@
                             </div>
                         </div>
                     </form>
+                    <script type="text/javascript">
+                        function checkNum(){
+                           if($('input[name=phone]').val()==''){
+                            alert('编号不能为空！');return false;
+                           } 
+                           if(!(/^1[34578]\d{9}$/.test(this.value))){
+                                // $('#warn').html('请输入正确的编号！');return false;
+                                alert('请输入正确的编号！');return false;
+                            }
+                        }
+                    </script>
                 </div>
             </div>
     </section>
