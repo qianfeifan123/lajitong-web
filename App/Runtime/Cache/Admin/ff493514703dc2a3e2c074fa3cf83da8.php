@@ -117,16 +117,13 @@
                                 <div class="col-md-7">
                                     <div class="form-group">
                                         <div class="input-group"><span class="input-group-addon">编号</span>
-                                            <input type="text" name="phone" value="<?php echo $dustbin["phone"];?>"
-                                                   class="form-control">
+                                            <input type="text" name="phone" class="form-control" onkeyup="this.value=this.value.replace(/\D/g,'')" maxlength="11" value="<?php echo $dustbin["phone"];?>">
                                         </div>
 										<div class="input-group"><span class="input-group-addon">经度</span>
-                                            <input type="text" name="lat" value="<?php echo $dustbin["lat"];?>"
-                                                   class="form-control">
+                                            <input type="text" name="lat" class="form-control" onkeyup="this.value=this.value.replace(/[^\d.]/g,'')"  onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="10" value="<?php echo $dustbin["lat"];?>">
                                         </div>
 										<div class="input-group"><span class="input-group-addon">纬度</span>
-                                            <input type="text" name="lng" value="<?php echo $dustbin["lng"];?>"
-                                                   class="form-control">
+                                            <input type="text" name="lng" class="form-control" onkeyup="this.value=this.value.replace(/[^\d.]/g,'')"  onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="9" value="<?php echo $dustbin["lng"];?>">
                                         </div>
                                         <div class="input-group"><span class="input-group-addon">容量状态</span>
                                             已满<input style="width:16px;height: 16px;" type="radio" name="full" value="1"
