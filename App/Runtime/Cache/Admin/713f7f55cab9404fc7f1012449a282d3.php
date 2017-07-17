@@ -72,6 +72,12 @@
 		    <li>
           <a class="back" href="<?php echo U("Dustbin/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="/ThinkPHP/Public/Admin/images/icon_10.png" style="margin-top:15px;"></div></span><span class="sidebar-title">设备列表</span></a>
         </li>
+        <li>
+          <a class="back" href="<?php echo U("Guanyu/class_list"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="/ThinkPHP/Public/Admin/images/icon_20.png" style="margin-top:15px;"></div></span><span class="sidebar-title">关于我们</span></a>
+        </li>
+        <li>
+          <a class="back" href="<?php echo U("Suggestion/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="/ThinkPHP/Public/Admin/images/icon_10.png" style="margin-top:15px;"></div></span><span class="sidebar-title">意见反馈</span></a>
+        </li>
 
 		<script>
 		    $('.back').hover(function(){
@@ -119,10 +125,10 @@
                                                    class="form-control">
                                         </div>
                                         <div class="input-group"><span class="input-group-addon">性别</span>
-                                            <input type="radio" name="sex" value="1"
-                                                   class="form-control" <?php echo $user['sex']==1?'checked':''?>>男<br/>
-                                            <input type="radio" name="sex" value="0"
-                                                   class="form-control" <?php echo $user['sex']==0?'checked':''?>>女       
+                                            男<input style="width:16px;height: 16px;" type="radio" name="sex" value="1"
+                                                   class="" <?php echo $user['sex']==1?'checked':''?>><br/>
+                                            女<input style="width:16px;height: 16px;" type="radio" name="sex" value="0"
+                                                   class="" <?php echo $user['sex']==0?'checked':''?>>       
                                         </div>
 										<div class="form-group">
                                         <div class="input-group"><span class="input-group-addon">头像</span>

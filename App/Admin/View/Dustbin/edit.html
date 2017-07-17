@@ -25,7 +25,7 @@
                                 <div class="col-md-7">
                                     <div class="form-group">
                                         <div class="input-group"><span class="input-group-addon">编号</span>
-                                            <input type="text" name="lid" value="<?php echo $dustbin["lid"];?>"
+                                            <input type="text" name="phone" value="<?php echo $dustbin["phone"];?>"
                                                    class="form-control">
                                         </div>
 										<div class="input-group"><span class="input-group-addon">经度</span>
@@ -37,8 +37,16 @@
                                                    class="form-control">
                                         </div>
                                         <div class="input-group"><span class="input-group-addon">容量状态</span>
-                                            <input type="text" name="capacity" value="<?php echo $dustbin["capacity"];?>"
-                                                   class="form-control">
+                                            已满<input style="width:16px;height: 16px;" type="radio" name="full" value="1"
+                                                   class="" <?php echo $dustbin['full']==1?'checked':''?>><br/>
+                                            未满<input style="width:16px;height: 16px;" type="radio" name="full" value="0"
+                                                   class="" <?php echo $dustbin['full']==0?'checked':''?>>       
+                                        </div>
+                                        <div class="input-group"><span class="input-group-addon">报警状态</span>
+                                            报警<input style="width:16px;height: 16px;" type="radio" name="warning" value="1"
+                                                   class="" <?php echo $dustbin['warning']==1?'checked':''?>><br/>
+                                            正常<input style="width:16px;height: 16px;" type="radio" name="warning" value="0"
+                                                   class="" <?php echo $dustbin['warning']==0?'checked':''?>>       
                                         </div>
                                     </div>                                
                                 </div>

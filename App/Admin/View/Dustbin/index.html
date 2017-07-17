@@ -18,16 +18,26 @@
                         <th>编号</th>
                         <th>经度</th>
                         <th>纬度</th>
+                        <th>位置</th>
                         <th>容量状态</th>
+                        <th>报警状态</th>
                         <th width="200">操作</th>
                       </tr>
             <foreach name="list" item="value" > 
             <tr class="success">
                         <td class="text-center"><input type="checkbox" value="{$value.id}" name="idarr[]" class="cbox" data-id="{$value.id}"></td>
-                        <td>{$value.lid}</td>
-                        <td>{$value.lat}</td>
+                        <td>{$value.phone}</td>
                         <td>{$value.lng}</td>
-                        <td>{$value.capacity}%</td>
+                        <td>{$value.lat}</td>
+                        <td>{$value.address}</td>
+                        <td><?php echo $value['full']==1?'已满':'未满'; ?></td>
+                        <td>
+                           <?php if($value['warning']==1){ ?>
+                           <img src="__UP__/OTOHTW74[3BPN7IU1QX])IE.png" width="50" height="50">
+                           <?php }else{?>
+                           <img src="__UP__/8EIS[(`]8(H_VYHIVNA}P~C.png" width="50" height="50">
+                           <?php }?> 
+                        </td>
                         <td>
                           <div class="btn-group">
                             <a href="<?php echo U('Dustbin/edit',array('id'=>$value['id']));?>" class="btn btn-default btn-gradient"><span class="glyphicons glyphicon-pencil"></span></a>
@@ -46,14 +56,19 @@
                   </div>
                   
                   <div class="pull-right">
-                     <style>
-          .current{color:red;margin-right:5px; font-weight:600;}
-          .num{color:blue; margin-right:5px;}
-          .next{color:blue;}
-          .prev{color:blue; margin-right:5px;}
-          </style>
-                  <div class="pull-right">
+                  <style>
+                    .green_black a,.green_black span{
+                      line-height: 30px !important;
+                    }
+                    .current{width:30px;height:30px;line-height:15px;text-align:center;border:1px solid #14abd8;display:inline-block;color:red;margin-right:15px; font-weight:600;}
+                    .num{width:30px;height:30px;line-height:15px;text-align:center;border:1px solid #14abd8;display:inline-block;color:lightblue; margin-right:15px;}
+                    .next{width:30px;height:30px;line-height:15px;text-align:center;border:1px solid #14abd8;display:inline-block;color:lightblue;}
+                    .prev{width:30px;height:30px;line-height:15px;text-align:center;border:1px solid #14abd8;display:inline-block;color:lightblue; margin-right:15px;}
+                  </style>
+                  <div class="pull-right green_black">
+                   <ul class="pages">
                     <?php echo $page; ?>
+                   </ul> 
                   </div>
                   </div>
                   

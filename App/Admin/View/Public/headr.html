@@ -45,7 +45,7 @@
 <!-- Start: Header -->
 <header class="navbar navbar-fixed-top" style="background-image: none; background-color:#41494e;">
   <div class="pull-left"> <a class="navbar-brand" href="#">
-    <div class="navbar-logo"><img src="__IMG__/logo.png" alt="logo" style="width:150%;"></div>
+    <div class="navbar-logo"><img src="__IMG__/logo.png" alt="logo" style="width:100%;"></div>
     </a> </div>
   <div class="pull-right header-btns">
     <a class="user"><span class="glyphicons glyphicon-user"></span><?php echo $_SESSION['username'];?></a>
@@ -71,6 +71,12 @@
         </li>
 		    <li>
           <a class="back" href="<?php echo U("Dustbin/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="__IMG__/icon_10.png" style="margin-top:15px;"></div></span><span class="sidebar-title">设备列表</span></a>
+        </li>
+        <li>
+          <a class="back" href="<?php echo U("Guanyu/class_list"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="__IMG__/icon_20.png" style="margin-top:15px;"></div></span><span class="sidebar-title">关于我们</span></a>
+        </li>
+        <li>
+          <a class="back" href="<?php echo U("Suggestion/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="__IMG__/icon_10.png" style="margin-top:15px;"></div></span><span class="sidebar-title">意见反馈</span></a>
         </li>
 
 		<script>

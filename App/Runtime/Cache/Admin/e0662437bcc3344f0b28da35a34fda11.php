@@ -72,6 +72,12 @@
 		    <li>
           <a class="back" href="<?php echo U("Dustbin/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="/ThinkPHP/Public/Admin/images/icon_10.png" style="margin-top:15px;"></div></span><span class="sidebar-title">设备列表</span></a>
         </li>
+        <li>
+          <a class="back" href="<?php echo U("Guanyu/class_list"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="/ThinkPHP/Public/Admin/images/icon_20.png" style="margin-top:15px;"></div></span><span class="sidebar-title">关于我们</span></a>
+        </li>
+        <li>
+          <a class="back" href="<?php echo U("Suggestion/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="/ThinkPHP/Public/Admin/images/icon_10.png" style="margin-top:15px;"></div></span><span class="sidebar-title">意见反馈</span></a>
+        </li>
 
 		<script>
 		    $('.back').hover(function(){
@@ -111,7 +117,7 @@
                                 <div class="col-md-7">
                                     <div class="form-group">
                                         <div class="input-group"><span class="input-group-addon">编号</span>
-                                            <input type="text" name="lid" value="" class="form-control">
+                                            <input type="text" name="phone" value="" class="form-control">
                                         </div>
                                     </div>
 									  <div class="form-group">
@@ -125,10 +131,17 @@
                                            <input type="text" name="lng" value="" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <div class="input-group"><span class="input-group-addon">容量状态</span>
-                                           <input type="number" name="capacity" value="" class="form-control">
-                                        </div>
+                                    <div class="input-group"><span class="input-group-addon">容量状态</span>
+                                        已满<input style="width:16px;height: 16px;" type="radio" name="full" value="1"
+                                                   class="form-control"><br/>
+                                        未满<input style="width:16px;height: 16px;" type="radio" name="full" value="0"
+                                                   class="form-control">       
+                                    </div>
+                                    <div class="input-group"><span class="input-group-addon">报警状态</span>
+                                        报警<input style="width:16px;height: 16px;" type="radio" name="warning" value="1"
+                                                   class="form-control"><br/>
+                                        正常<input style="width:16px;height: 16px;" type="radio" name="warning" value="0"
+                                                   class="form-control">       
                                     </div>
                                 </div>
                                 <div class="col-md-7">

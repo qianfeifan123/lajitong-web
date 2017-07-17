@@ -5,11 +5,22 @@ use Think\Controller;
 class UserController extends Controller {
    public function index(){
       $db=M('admin');
-      $user=$db->where('status=1')->order('id desc')->select();
-      $page=getpage($db,'status=1',10);
-      // var_dump($user);die;
-      $this->page=$page->show;
+      $count = $db->where('status=1')->count();
+      $Page = new \Think\Page($count,5);
+      $show = $Page->show();
+      $user=$db->where('status=1')->order('id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+      $this->assign('page',$show);
       $this->assign('list',$user);
+      if(IS_POST){
+		   $idarr = implode(',',I('post.idarr'));
+		   $shouye=M('admin');
+		   $row = $shouye->delete($idarr);
+		   if($row){
+				alert('删除成功',U('User/index'));
+		   }else{
+				alert('删除失败');
+		   }
+	   }
       $this->display();
    }
 

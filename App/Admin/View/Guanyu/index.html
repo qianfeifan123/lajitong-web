@@ -1,0 +1,64 @@
+<include file="public/headr" />
+  <!-- Start: Content -->
+  <section id="content">
+    <div id="topbar" class="affix">
+      <ol class="breadcrumb">
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+      </ol>
+    </div>
+    <div class="container">
+		<div class="col-md-9">
+			<div id="docs-content">
+				<h2 class="page-header margin-top-none">个人信息</h2>
+				<table class="table">
+					<tr>
+					<td colspan="2"><?php echo "您好".$_SESSION['username'];?></td>
+					</tr>
+					<tr>
+					<td width="100">最后登录时间:</td>
+					<td><?php echo date("Y-m-d h:i:s",$_SESSION['times']);?></td>
+					</tr>
+					<tr>
+					<td>最后登录IP:</td>
+					<td><?php echo $_SESSION['ip'];?></td>
+					</tr>
+				</table>
+				<h2 class="page-header margin-top-none">当前操作系统信息</h2>
+				<table class="table">
+				  <tr>
+				    <td width="100">操作系统：</td>
+				    <td><?php echo $_SESSION['os'];?></td>
+				  </tr>
+				  <tr>
+				    <td>PHP 版本:</td>
+				    <td><?php echo $_SESSION['vs'];?></td>
+				  </tr>
+				  <tr>
+				    <td>MySQL 版本:</td>
+				    <td><?php echo $_SESSION['ql'];?></td>
+				  </tr>
+				</table>
+				<h2 class="page-header margin-top-none">上次操作系统信息</h2>
+				<table class="table">
+				  <tr>
+				    <td width="100">操作系统：</td>
+				    <td><?php echo $_SESSION['osing'];?></td>
+				  </tr>
+				  <tr>
+				    <td>PHP 版本:</td>
+				    <td><?php echo $_SESSION['vsing'];?></td>
+				  </tr>
+				  <tr>
+				    <td>MySQL 版本:</td>
+				    <td><?php echo $_SESSION['qling'];?></td>
+				  </tr>
+				</table>
+			</div>
+		</div>
+    </div> 
+  </section>
+  <!-- End: Content --> 
+</div>
+<!-- End: Main --></body>
+
+</html>

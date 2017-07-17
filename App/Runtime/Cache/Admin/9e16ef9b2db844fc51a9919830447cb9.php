@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<!-- Meta, title, /ThinkPHP/Public/Admin/css, favicons, etc. -->
+	<!-- Meta, title, /Dustbin/Public/Admin/css, favicons, etc. -->
 	<meta charset="utf-8">
 	<title>后台管理系统</title>
 	<meta name="keywords" content="Admin">
@@ -10,22 +10,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Core css  -->
-	<link rel="stylesheet" type="text/css" href="/ThinkPHP/Public/Admin/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/Dustbin/Public/Admin/css/bootstrap.css">
 	
 	<!-- Theme css -->
-	<link rel="stylesheet" type="text/css" href="/ThinkPHP/Public/Admin/css/theme.css">
-	<link rel="stylesheet" type="text/css" href="/ThinkPHP/Public/Admin/css/pages.css">
-	<link rel="stylesheet" type="text/css" href="/ThinkPHP/Public/Admin/css/plugins.css">
-	<link rel="stylesheet" type="text/css" href="/ThinkPHP/Public/Admin/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="/Dustbin/Public/Admin/css/theme.css">
+	<link rel="stylesheet" type="text/css" href="/Dustbin/Public/Admin/css/pages.css">
+	<link rel="stylesheet" type="text/css" href="/Dustbin/Public/Admin/css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="/Dustbin/Public/Admin/css/responsive.css">
 
 	<!-- Boxed-Layout css -->
-	<link rel="stylesheet" type="text/css" href="/ThinkPHP/Public/Admin/css/boxed.css">
+	<link rel="stylesheet" type="text/css" href="/Dustbin/Public/Admin/css/boxed.css">
 
 	<!-- Demonstration css -->
-	<link rel="stylesheet" type="text/css" href="/ThinkPHP/Public/Admin/css/demo.css">
+	<link rel="stylesheet" type="text/css" href="/Dustbin/Public/Admin/css/demo.css">
 
 	<!-- Your Custom css -->
-	<link rel="stylesheet" type="text/css" href="/ThinkPHP/Public/Admin/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="/Dustbin/Public/Admin/css/custom.css">
 
 </head>
 
@@ -35,7 +35,7 @@
 <div id="main">
   <div class="container">
     <div class="row">
-      <div id="page-logo"><img src="/ThinkPHP/Public/Admin/images/logo.png"></div>
+      <div id="page-logo"><img src="/Dustbin/Public/Admin/images/logo.png"></div>
     </div>
     <div class="row">
       <div class="panel">
@@ -80,12 +80,12 @@
 <!-- End: Main --> 
 
 <!-- Core Javascript - via CDN --> 
-<script src="/ThinkPHP/Public/Admin/js/jquery.min.js"></script> 
-<script src="/ThinkPHP/Public/Admin/js/jquery-ui.min.js"></script> 
-<script src="/ThinkPHP/Public/Admin/js/bootstrap.min.js"></script> <!-- Theme Javascript --> 
-<script type="text/javascript" src="/ThinkPHP/Public/Admin/js/uniform.min.js"></script> 
-<script type="text/javascript" src="/ThinkPHP/Public/Admin/js/main.js"></script>
-<script type="text/javascript" src="/ThinkPHP/Public/Admin/js/custom.js"></script> 
+<script src="/Dustbin/Public/Admin/js/jquery.min.js"></script> 
+<script src="/Dustbin/Public/Admin/js/jquery-ui.min.js"></script> 
+<script src="/Dustbin/Public/Admin/js/bootstrap.min.js"></script> <!-- Theme Javascript --> 
+<script type="text/javascript" src="/Dustbin/Public/Admin/js/uniform.min.js"></script> 
+<script type="text/javascript" src="/Dustbin/Public/Admin/js/main.js"></script>
+<script type="text/javascript" src="/Dustbin/Public/Admin/js/custom.js"></script> 
 <script type="text/javascript">
 
 jQuery(document).ready(function() {

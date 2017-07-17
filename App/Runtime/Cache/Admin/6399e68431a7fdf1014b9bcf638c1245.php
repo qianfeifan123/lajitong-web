@@ -95,7 +95,7 @@
     <section id="content">
         <div id="topbar" class="affix">
             <ol class="breadcrumb">
-                <li><a href="<?php echo U("User/index");?>"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li><a href="<?php echo U("Guanyu/class_list");?>"><span class="glyphicon glyphicon-home"></span></a></li>
                 <li class="active">添加</li>
             </ol>
         </div>
@@ -108,7 +108,7 @@
                             <div class="panel-heading">
                                 <div class="panel-title">添加</div>
                                 <div class="panel-btns pull-right margin-left">
-                                    <a href="<?php echo U("User/index");?>"
+                                    <a href="<?php echo U("Guanyu/class_list");?>"
                                        class="btn btn-default btn-gradient dropdown-toggle"><span
                                             class="glyphicon glyphicon-chevron-left"></span></a>
                                 </div>
@@ -116,28 +116,29 @@
                             <div class="panel-body">
                                 <div class="col-md-7">
                                     <div class="form-group">
-                                        <div class="input-group"><span class="input-group-addon">名称</span>
+                                        <!-- <div class="input-group"><span class="input-group-addon">分类</span>
+                                           <select name="" id="standard-list1" class="form-control">
+                                                <option value="0">请选择</option>
+                                                <option value="1">科技</option>
+                                                <option value="2">文化</option>
+                                                <option value="3">生活</option>
+                                            </select> 
+                                        </div>-->
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group"><span class="input-group-addon">主题</span>
                                             <input type="text" name="username" value="" class="form-control">
                                         </div>
                                     </div>
-									  <div class="form-group">
-                                        <div class="input-group"><span class="input-group-addon">密码</span>
-                                            <input type="password" name="password" value="" class="form-control" maxlength="12">
-                                        </div>
-                                    </div>
+									
                                     <div class="form-group">
-    									<div class="input-group"><span class="input-group-addon">性别</span>
-                                                男<input style="width:16px;height: 16px;" type="radio" name="sex" value="1"
-                                                       class="" ><br/>
-                                                女<input style="width:16px;height: 16px;" type="radio" name="sex" value="0"
-                                                       class="" >       
+                                        <div class="input-group"><span class="input-group-addon">图片</span>
+                                           <input type="file" name="tupian" value="" class="form-control">
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <div class="input-group"><span class="input-group-addon">头像</span>
-                                           <input type="file" name="picture" value="" class="form-control">
-                                        </div>
-                                    </div>
+                                </div>
+                                <div class="form-group col-md-12">
+                                      <script id="editor" name="password" type="text/plain" style="width:100%;height:500px;"></script>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="form-group">

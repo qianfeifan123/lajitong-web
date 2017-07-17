@@ -6,25 +6,39 @@ class DustbinController extends Controller {
 
 	public function index(){
       $db=M('dustbin_map');
-      $dustbin=$db->where('status=1')->order('id desc')->select();
-      $page=getpage($db,'status=1',10);
-      $this->page=$page->show;
+      $count = $db->where('status=1')->count();
+      $Page = new \Think\Page($count,5);
+      $show = $Page->show();
+      $dustbin=$db->where('status=1')->order('id desc')->limit($Page->firstRow.','.$Page->listRows)->select();
       $this->assign('list',$dustbin);
+      $this->assign('page',$show);
+      if(IS_POST){
+       $idarr = implode(',',I('post.idarr'));
+       $shouye=M('dustbin_map');
+       $row = $shouye->delete($idarr);
+       if($row){
+        alert('删除成功',U('Dustbin/index'));
+       }else{
+        alert('删除失败');
+       }
+     }
       $this->display();
     }
 
     public function add(){
     	if(isset($_POST["dosubmit"])){
-           $lid = I("post.lid");
+           $phone = I("post.phone");
            $lat = I("post.lat");
            $lng = I("post.lng");
-           $capacity = I("post.capacity");
+           $full = I("post.full");
+           $warning = I("post.warning");
            $db = M("dustbin_map");
-           $data['lid']=$lid;
+           $data['phone']=$phone;
            $data['lat']=$lat;
            $data['lng']=$lng;
-           $data['point']=$lat.','.$lng;
-           $data['capacity']=$capacity;
+           $data['point']=$lng.','.$lat;
+           $data['full']=$full;
+           $data['warning']=$warning;
            $row = $db -> add($data);
            if($row){
                alert('添加成功',U('Dustbin/index'));
@@ -41,11 +55,12 @@ class DustbinController extends Controller {
         $dustbin = $db -> where("id=".$id)->find();
         $this->assign('dustbin',$dustbin);
         if(isset($_POST['dosubmit'])){
-            $data['lid']=I('post.lid');
+            $data['phone']=I('post.phone');
             $data['lat']=I('post.lat');
             $data['lng']=I('post.lng');
-            $data['point']=I('post.lat').','.I('post.lng');
-            $data['capacity']=I('post.capacity');
+            $data['point']=I('post.lng').','.I('post.lat');
+            $data['full']=I('post.full');
+            $data['warning']=I('post.warning');
             $sql=$db->where("id=".$id)->save($data);
             if($sql){
                 alert('修改成功',U('dustbin/index'));

@@ -31,35 +31,7 @@ jQuery(document).ready(function() {
         return false; 
       }
   
-      var sure=confirm("确认要删除吗？");
-      if(sure==true){
-         var arr=[];
-         console.log($(".cbox input:checked"));
-        $(".cbox input:checked").each(function(){   
-          arr.push($(this).data('id'));                               
-        });
-        console.log(arr);return false;
-                var url = '/Dustbin/dels';
-                var id = arr;
-                var data = {id : id };
-                $.post(url,data,function(res){
-                    if(!res.status){ 
-                        layer.alert(res.message);
-                    }else{ 
-                        $('.cbox').each(function() {
-                            if($(this).data('id')==id){
-                                $(this).hide();
-                            }
-                            location.reload() ;
-                        });
-                        layer.msg('删除成功！'); 
-                    }
-                },'json');    
-            return false;
-           
-      }else{
-
-      }
+      return confirm("确认要删除吗？");
     }); 
     
 });

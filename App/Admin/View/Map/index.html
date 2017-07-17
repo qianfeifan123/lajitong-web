@@ -4,7 +4,7 @@
         <fieldset class="demo_content">  
             <div style="min-height: 580px; width: 86%;margin-left:14%;" id="map">  
             </div> 
-            <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=p5YA3BZOACQlIY7Nv21LF4BPQUFlzf5k"></script> 
+            <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=p5YA3BZOACQlIY7Nv21LF4BPQUFlzf5k"></script> --> 
             <script type="text/javascript">  
                 var markerArr={$markerList};
                 // var markerArr=JSON.stringify(markerList);
@@ -21,7 +21,8 @@
                       var pt = e.point;
                       geoc.getLocation(pt, function(rs){
                          var addComp = rs.addressComponents;
-                         alert(addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber);
+                         var address = addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber;
+                         alert(address);
                       });        
                    });  
                     //第3步：启用滚轮放大缩小  
@@ -68,23 +69,22 @@
   
                 // 添加信息窗口  
                 function addInfoWindow(marker, poi) {  
-                    //pop弹窗标题  
-                    // var title = '<div style="font-weight:bold;color:#CE5521;font-size:14px">' + poi.title + '</div>';  
-                    // //pop弹窗信息  
-                    // var html = [];  
-                    // html.push('<table cellspacing="0" style="table-layout:fixed;width:100%;font:12px arial,simsun,sans-serif"><tbody>');  
-                    // html.push('<tr>');  
-                    // html.push('<td style="vertical-align:top;line-height:16px;width:38px;white-space:nowrap;word-break:keep-all">地址:</td>');  
-                    // html.push('<td style="vertical-align:top;line-height:16px">' + poi.address + ' </td>');  
-                    // html.push('</tr>');  
-                    // html.push('</tbody></table>');  
-                    // var infoWindow = new BMap.InfoWindow(html.join(""), { title: title, width: 200 });  
+                    //pop弹窗标题   
+                    //pop弹窗信息  
+                    var html = [];  
+                    html.push('<table cellspacing="0" style="table-layout:fixed;width:100%;font:12px arial,simsun,sans-serif"><tbody>');  
+                    html.push('<tr>');  
+                    html.push('<td style="vertical-align:top;line-height:16px;width:38px;white-space:nowrap;word-break:keep-all">地址:</td>');  
+                    html.push('<td style="vertical-align:top;line-height:16px">' + poi.address + ' </td>');  
+                    html.push('</tr>');  
+                    html.push('</tbody></table>');  
+                    var infoWindow = new BMap.InfoWindow(html.join(""), {width: 200 });  
   
-                    // var openInfoWinFun = function () {  
-                    //     marker.openInfoWindow(infoWindow);  
-                    // };  
-                    // marker.addEventListener("click", openInfoWinFun);  
-                    // return openInfoWinFun;  
+                    var openInfoWinFun = function () {  
+                        marker.openInfoWindow(infoWindow);  
+                    };  
+                    marker.addEventListener("click", openInfoWinFun);  
+                    return openInfoWinFun;  
                 }  
   
                 //异步调用百度js  
