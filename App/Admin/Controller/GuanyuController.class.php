@@ -2,13 +2,13 @@
 namespace Admin\Controller;
 use Think\Controller;
 class GuanyuController extends CommonController {
-	/*public function _initialize(){
+	public function _initialize(){
 	//初始化方法，访问控制器就会先运行此方法
-		if(!session('?admin')){
+		if(!session('?username')){
 			$this->error("请登录!", U("Login/login"),1);
 		}
 
-	}*/
+	}
    public function class_list(){
    	   $db=M('admin_guanyu');
        $count = $db->count();

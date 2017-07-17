@@ -3,6 +3,14 @@ namespace Admin\Controller;
 use Think\Controller;
 
 class SuggestionController extends Controller {
+   public function _initialize(){
+    //初始化方法，访问控制器就会先运行此方法
+        if(!session('?username')){
+            $this->error("请登录!", U("Login/login"),1);
+        }
+
+    }
+
    public function index(){
       $db=M('suggestion');
       $list=$db->where('status=1')->order('id desc')->select();

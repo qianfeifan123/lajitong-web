@@ -3,6 +3,13 @@ namespace Admin\Controller;
 use Think\Controller;
 
 class DustbinController extends Controller {
+  public function _initialize(){
+    //初始化方法，访问控制器就会先运行此方法
+        if(!session('?username')){
+            $this->error("请登录!", U("Login/login"),1);
+        }
+
+    }
 
 	public function index(){
       $db=M('dustbin_map');
