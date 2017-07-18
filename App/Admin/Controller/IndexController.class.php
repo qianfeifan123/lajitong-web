@@ -12,34 +12,49 @@ class IndexController extends Controller {
     }
 
 	public function index(){
-	    #测试接收数据 数组格式 
+        $rec_data=file_get_contents($url);
+        #解析接收到的数据包
+        $rec=explode(',',$rec_data);
+        $length=sizeof($rec);
+        for($k=0;$k<$length;$k++){
+            $rec1=explode('/',$rec[$k]);
+                $datas[$k]['phone']=chr($rec1[1]); //十六进制ASCII码字符转换
+                $datas[$k]['lat']=$rec1[2];
+                $datas[$k]['lng']=$rec1[3];
+                $datas[$k]['full']=substr($rec1[4],0,1);
+                $datas[$k]['warning']=substr($rec1[4],1,1);
+                // $addressUrl="http://api.map.baidu.com/geocoder/v2/?callback=renderReverse&location=".$datas[$k]['lat'].",".$datas[$k]['lng']."&output=json&pois=1&ak=1rCFLG6jcn5lT6Ymyc9HzusvDeCVK0ME"; //根据经纬度解析位置信息
+                // $datas[$k]['address']=file_get_contents($addressUrl);
+        }
+          
 	    $db=M("dustbin_map");
-	    $datas=array(
-            0=>array(
-                'phone'=>'13200000001',
-                'lng'=>'120.369',
-                'lat'=>'36.562',
-                'full'=>1,
-                'warning'=>0,
-                'address'=>''
-            	),
-            1=>array(
-                'phone'=>'15200000002',
-                'lng'=>'119.369',
-                'lat'=>'35.562',
-                'full'=>0,
-                'warning'=>0,
-                'address'=>''
-            	),
-            2=>array(
-                'phone'=>'18070146270',
-                'lng'=>'114.109',
-                'lat'=>'22.562',
-                'full'=>1,
-                'warning'=>0,
-                'address'=>''
-            	)
-	    	);
+        #测试接收数据 数组格式
+	    // $datas=array(
+     //        0=>array(
+     //            'phone'=>'13200000001',
+     //            'lng'=>'120.369',
+     //            'lat'=>'36.562',
+     //            'full'=>1,
+     //            'warning'=>0,
+     //            'address'=>''
+     //        	),
+     //        1=>array(
+     //            'phone'=>'15200000002',
+     //            'lng'=>'119.369',
+     //            'lat'=>'35.562',
+     //            'full'=>0,
+     //            'warning'=>0,
+     //            'address'=>''
+     //        	),
+     //        2=>array(
+     //            'phone'=>'18070146270',
+     //            'lng'=>'114.109',
+     //            'lat'=>'22.562',
+     //            'full'=>1,
+     //            'warning'=>0,
+     //            'address'=>''
+     //        	)
+	    // 	);
 	     for($i=0;$i<=count($datas);$i++){            
             $data['phone']= $datas[$i]['phone'];           
             $data['lat']= $datas[$i]['lat'];
@@ -55,25 +70,8 @@ class IndexController extends Controller {
             	$db->where('phone='.$data['phone'])->save($datas[$i]);
             }          
         }
-	    // $address = $_POST['address'];
-	    // $full = $_POST['full'];   
-	    // $data['phone']=$phone;
-	    // $data['lat']=$lat;
-	    // $data['lng']=$lng;
-	    // $data['point']=$lng.','.$lat;
-	    // $exist=$db->where('phone='.$phone)->find();
-
-        // $url="http://api.map.baidu.com/geocoder/v2/?callback=renderReverse&location=39.983424,116.322987&output=json&pois=1&ak=1rCFLG6jcn5lT6Ymyc9HzusvDeCVK0ME";
-        // $address=file_get_contents($url);
-        // var_dump($address);die; 
-	    // if(!$exist){
-		   //  $res=$db->add($data);
-		   //  if(!$res){
-	    //        $this->error('接收失败！');
-		   //  }
-	    // }
+        
         $list=$db->select();
-        // var_dump($list);die;
         $this->assign('markerList',json_encode($list));
 		$this->display();
 	}

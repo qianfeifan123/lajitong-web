@@ -154,10 +154,9 @@
                            if($('input[name=phone]').val()==''){
                             alert('编号不能为空！');return false;
                            } 
-                           if(!(/^1[34578]\d{9}$/.test($('input[name=phone]').val()))) {
-                                // $('#warn').html('请输入正确的编号！');return false;
-                                alert('请输入正确的编号！');return false;
-                            }
+                           // if(!(/^1[34578]\d{9}$/.test($('input[name=phone]').val()))) {
+                           //      alert('请输入正确的编号！');return false;
+                           //  }
                         }
                     </script>
                 </div>
