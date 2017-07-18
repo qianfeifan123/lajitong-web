@@ -64,7 +64,7 @@
     <div id="sidebar-menu">
       <ul class="nav sidebar-nav">
         <li> 
-          <a  class="back" href="<?php echo U("Map/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="/Dustbin/Public/Admin/images/icon_03.png" style="margin-top:15px;"></div></span><span class="sidebar-title">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</span></a>
+          <a  class="back" href="<?php echo U("Index/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="/Dustbin/Public/Admin/images/icon_03.png" style="margin-top:15px;"></div></span><span class="sidebar-title">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</span></a>
         </li>
 		    <li>
           <a class="back" href="<?php echo U("User/index"); ?>"><span class="glyphicons"><div style="width:50%;margin:auto;"><img width="100%"src="/Dustbin/Public/Admin/images/icon_10.png" style="margin-top:15px;"></div></span><span class="sidebar-title">用户列表</span></a>
@@ -154,7 +154,7 @@
                            if($('input[name=phone]').val()==''){
                             alert('编号不能为空！');return false;
                            } 
-                           if(!(/^1[34578]\d{9}$/.test(this.value))){
+                           if(!(/^1[34578]\d{9}$/.test($('input[name=phone]').val()))) {
                                 // $('#warn').html('请输入正确的编号！');return false;
                                 alert('请输入正确的编号！');return false;
                             }

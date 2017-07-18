@@ -3,6 +3,6 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-      $this->display();
+      $this->error("请登录",U("Login/login"));
     }
 }

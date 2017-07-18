@@ -92,80 +92,103 @@
   <!-- End: Sidebar -->  
   <!-- End: Sidebar -->  
   <!-- Start: Content -->
-  <section id="content">
-    <div id="topbar" class="affix">
-      <ol class="breadcrumb">
-        <li><a href="<?php echo U('Index/index');?>"><span class="glyphicon glyphicon-home"></span></a></li>
-        <li class="active">关于我们</li>
-      </ol>
+  <div class="demo_main">   
+        <fieldset class="demo_content">  
+            <div style="min-height: 580px; width: 86%;margin-left:14%;" id="map">  
+            </div> 
+            <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=p5YA3BZOACQlIY7Nv21LF4BPQUFlzf5k"></script> --> 
+            <script type="text/javascript">  
+                var markerArr=<?php echo ($markerList); ?>;
+                // var markerArr=JSON.stringify(markerList);
+                // console.log(markerArr); 
+                var map; //Map实例  
+                function map_init() {  
+                    map = new BMap.Map("map");  
+                    //第1步：设置地图中心点，深圳市  
+                    var point = new BMap.Point(113.904513, 22.571140);  
+                    //第2步：初始化地图,设置中心点坐标和地图级别。  
+                    map.centerAndZoom(point, 14);
+                    var geoc = new BMap.Geocoder();
+                    map.addEventListener("click", function(e){        
+                      var pt = e.point;
+                      geoc.getLocation(pt, function(rs){
+                         var addComp = rs.addressComponents;
+                         var address = addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber;
+                         alert(address);
+                      });        
+                   });  
+                    //第3步：启用滚轮放大缩小  
+                    map.enableScrollWheelZoom(true);  
+                    //第4步：向地图中添加缩放控件  
+                    var ctrlNav = new window.BMap.NavigationControl({  
+                        anchor: BMAP_ANCHOR_TOP_LEFT,  
+                        type: BMAP_NAVIGATION_CONTROL_LARGE  
+                    });  
+                    map.addControl(ctrlNav);  
+                    //第5步：向地图中添加缩略图控件  
+                    var ctrlOve = new window.BMap.OverviewMapControl({  
+                        anchor: BMAP_ANCHOR_BOTTOM_RIGHT,  
+                        isOpen: 1  
+                    });  
+                    map.addControl(ctrlOve);  
+  
+                    //第6步：向地图中添加比例尺控件  
+                    var ctrlSca = new window.BMap.ScaleControl({  
+                        anchor: BMAP_ANCHOR_BOTTOM_LEFT  
+                    });  
+                    map.addControl(ctrlSca);  
+  
+                    //第7步：绘制点    
+                    for (var i = 0; i < markerArr.length; i++) {  
+                        var p0 = markerArr[i].point.split(",")[0];  
+                        var p1 = markerArr[i].point.split(",")[1];  
+                        var maker = addMarker(new window.BMap.Point(p0, p1), i);  
+                        addInfoWindow(maker, markerArr[i], i);   
+                    }  
+                }  
+  
+                // 添加标注  
+                function addMarker(point, index) {  
+                    var myIcon = new BMap.Icon("http://api.map.baidu.com/img/markers.png",  
+                        new BMap.Size(23, 25), {  
+                            offset: new BMap.Size(10, 25),  
+                            imageOffset: new BMap.Size(0, 0 - index * 25)  
+                        });  
+                    var marker = new BMap.Marker(point, { icon: myIcon });  
+                    map.addOverlay(marker);  
+                    return marker;  
+                }  
+  
+                // 添加信息窗口  
+                function addInfoWindow(marker, poi) {  
+                    //pop弹窗标题   
+                    //pop弹窗信息  
+                    var html = [];  
+                    html.push('<table cellspacing="0" style="table-layout:fixed;width:100%;font:12px arial,simsun,sans-serif"><tbody>');  
+                    html.push('<tr>');  
+                    html.push('<td style="vertical-align:top;line-height:16px;width:38px;white-space:nowrap;word-break:keep-all">地址:</td>');  
+                    html.push('<td style="vertical-align:top;line-height:16px">' + poi.address + ' </td>');  
+                    html.push('</tr>');  
+                    html.push('</tbody></table>');  
+                    var infoWindow = new BMap.InfoWindow(html.join(""), {width: 200 });  
+  
+                    var openInfoWinFun = function () {  
+                        marker.openInfoWindow(infoWindow);  
+                    };  
+                    marker.addEventListener("click", openInfoWinFun);  
+                    return openInfoWinFun;  
+                }  
+  
+                //异步调用百度js  
+                function map_load() {  
+                    var load = document.createElement("script");  
+                    load.src = "http://api.map.baidu.com/api?v=1.4&callback=map_init";  
+                    document.body.appendChild(load);  
+                }  
+                window.onload = map_load;  
+            </script>  
+        </fieldset>  
     </div>
-    <div class="container">
-
-	 <div class="row">
-        <div class="col-md-12">
-			<div class="panel">
-                <div class="panel-heading">
-                  <div class="panel-title">关于列表</div>
-                  <a href="<?php echo U("Guanyu/add"); ?>" class="btn btn-info btn-gradient pull-right"><span class="glyphicons glyphicon-plus"></span> 添加文章</a>
-                </div>
-                <form action="" method="post">
-                <div class="panel-body">
-                  <h2 class="panel-body-title">关于我们</h2>
-                  <table class="table table-striped table-bordered table-hover dataTable">
-                      <tr class="active">
-                        <th class="text-center" width="100"><input type="checkbox" value="" id="checkall" class=""> 全选</th>
-                        <th>编号</th>
-                        <th>用户名</th>
-                        <th>内容</th>
-                        <th>图片</th>
-                        <th>更改时间</th>
-                        <th width="200">操作</th>
-                      </tr>
-					  <?php if(is_array($list)): foreach($list as $key=>$value): ?><tr class="success">
-                        <td class="text-center"><input type="checkbox" value="<?php echo ($value["id"]); ?>" name="idarr[]" class="cbox"></td>
-                        <td><?php echo ($value["id"]); ?></td>
-                        <td><?php echo ($value["name"]); ?></td>
-                        <td><?php echo ($value["content"]); ?></td>
-                        <td><img src="/Dustbin/Uploads/<?php echo ($value["img"]); ?>" width="100px" height="100px"></td>
-                        <td><?php echo date("Y-m-d h:i:s",$value['times']);?></td>
-                        <td>
-		                      <div class="btn-group">
-		                        <a href="<?php echo U('Guanyu/edit',array('id'=>$value['id']));?>" class="btn btn-default btn-gradient"><span class="glyphicons glyphicon-pencil"></span></a>
-		                        <a onclick="return confirm('确定要删除吗？');" href=" <?php echo U('Guanyu/del',array('id'=>$value['id']));?>" class="btn btn-default btn-gradient dropdown-toggle"><span class="glyphicons glyphicon-trash"></span></a>
-		                      </div>
-                        
-                        </td>
-                      </tr><?php endforeach; endif; ?>
-                    	
-                     
-                  </table>
-                  
-                  <div class="pull-left">
-                  	<button type="submit" name="sub" class="btn btn-default btn-gradient pull-right delall"><span class="glyphicons glyphicon-trash"></span></button>
-                  </div>
-                  
-                  <div class="pull-right">
-                     <style>
-                      .green_black a,.green_black span{
-                                  line-height: 30px !important;
-                                }
-                      .current{width:30px;height:30px;line-height:15px;text-align:center;border:1px solid #14abd8;display:inline-block;color:red;margin-right:15px; font-weight:600;}
-                      .num{width:30px;height:30px;line-height:15px;text-align:center;border:1px solid #14abd8;display:inline-block;color:lightblue; margin-right:15px;}
-                      .next{width:30px;height:30px;line-height:15px;text-align:center;border:1px solid #14abd8;display:inline-block;color:lightblue;}
-                      .prev{width:30px;height:30px;line-height:15px;text-align:center;border:1px solid #14abd8;display:inline-block;color:lightblue; margin-right:15px;}
-                    </style>
-                  <div class="pull-right green_black">
-                    <?php echo $page; ?>
-                  </div>
-                  </div>
-                  
-                </div>
-                </form>
-              </div>
-          </div>
-        </div>
-    </div>
-  </section>
   <!-- End: Content --> 
 </div>
 <!-- End: Main --> 

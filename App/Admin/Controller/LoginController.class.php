@@ -30,7 +30,7 @@ class LoginController extends Controller {
 				$data['ql']=$ql;
 				$res = $biao->where("username='$usename'")->save($data);
 				if($res){
-					alert("登陆成功！",U("Map/index"));
+					alert("登陆成功！",U("Index/index"));
 				}else{
 					alert("登陆失败！");
 				}
@@ -100,7 +100,7 @@ class LoginController extends Controller {
 				$res=$db->add($data);
 				$_SESSION['username']=$usename;
 				if($res){
-					alert("注册成功！",U("Map/index"));
+					alert("注册成功！",U("Index/index"));
 				}else{
 					alert("注册失败！");
 				}
