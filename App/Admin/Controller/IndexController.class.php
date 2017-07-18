@@ -13,18 +13,19 @@ class IndexController extends Controller {
 
 	public function index(){
         $rec_data=file_get_contents($url);
+        #格式 数据包长度/id/lat/lng/full warning/CRC
         #解析接收到的数据包
         $rec=explode(',',$rec_data);
         $length=sizeof($rec);
         for($k=0;$k<$length;$k++){
             $rec1=explode('/',$rec[$k]);
-                $datas[$k]['phone']=chr($rec1[1]); //十六进制ASCII码字符转换
-                $datas[$k]['lat']=$rec1[2];
-                $datas[$k]['lng']=$rec1[3];
-                $datas[$k]['full']=substr($rec1[4],0,1);
-                $datas[$k]['warning']=substr($rec1[4],1,1);
-                // $addressUrl="http://api.map.baidu.com/geocoder/v2/?callback=renderReverse&location=".$datas[$k]['lat'].",".$datas[$k]['lng']."&output=json&pois=1&ak=1rCFLG6jcn5lT6Ymyc9HzusvDeCVK0ME"; //根据经纬度解析位置信息
-                // $datas[$k]['address']=file_get_contents($addressUrl);
+            $datas[$k]['phone']=chr($rec1[1]); //编号id,十六进制ASCII码字符转换
+            $datas[$k]['lat']=substr($rec1[2],1,9); //纬度,第一位表示正负号从第二位截取9长度
+            $datas[$k]['lng']=substr($rec1[3],1,10);//经度,第一位表示正负号从第二位截取10长度
+            $datas[$k]['full']=substr($rec1[4],0,1);  //盛满状态 1:满 0:未满
+            $datas[$k]['warning']=substr($rec1[4],1,1); //报警状态 1:报警 0:正常
+            // $addressUrl="http://api.map.baidu.com/geocoder/v2/?callback=renderReverse&location=".$datas[$k]['lat'].",".$datas[$k]['lng']."&output=json&pois=1&ak=1rCFLG6jcn5lT6Ymyc9HzusvDeCVK0ME"; //通过百度地图api根据经纬度解析位置信息
+            // $datas[$k]['address']=file_get_contents($addressUrl);
         }
           
 	    $db=M("dustbin_map");
