@@ -91,106 +91,70 @@
   </aside>
   <!-- End: Sidebar -->  
   <!-- End: Sidebar -->  
-  <!-- Start: Content -->
-  <div class="demo_main">   
-        <fieldset class="demo_content">  
-            <div style="min-height: 580px; width: 86%;margin-left:14%;" id="map">  
-            </div> 
-            <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=p5YA3BZOACQlIY7Nv21LF4BPQUFlzf5k"></script> --> 
-            <script type="text/javascript">  
-                var markerArr=<?php echo ($markerList); ?>;
-                // var markerArr=JSON.stringify(markerList);
-                // console.log(markerArr); 
-                var map; //Map实例  
-                function map_init() {  
-                    map = new BMap.Map("map");  
-                    //第1步：设置地图中心点，深圳市  
-                    var point = new BMap.Point(113.904513, 22.571140);  
-                    //第2步：初始化地图,设置中心点坐标和地图级别。  
-                    map.centerAndZoom(point, 14);
-                    var geoc = new BMap.Geocoder();
-                    map.addEventListener("click", function(e){        
-                      var pt = e.point;
-                      geoc.getLocation(pt, function(rs){
-                         var addComp = rs.addressComponents;
-                         var address = addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber;
-                         alert(address);
-                      });        
-                   });  
-                    //第3步：启用滚轮放大缩小  
-                    map.enableScrollWheelZoom(true);  
-                    //第4步：向地图中添加缩放控件  
-                    var ctrlNav = new window.BMap.NavigationControl({  
-                        anchor: BMAP_ANCHOR_TOP_LEFT,  
-                        type: BMAP_NAVIGATION_CONTROL_LARGE  
-                    });  
-                    map.addControl(ctrlNav);  
-                    //第5步：向地图中添加缩略图控件  
-                    var ctrlOve = new window.BMap.OverviewMapControl({  
-                        anchor: BMAP_ANCHOR_BOTTOM_RIGHT,  
-                        isOpen: 1  
-                    });  
-                    map.addControl(ctrlOve);  
-  
-                    //第6步：向地图中添加比例尺控件  
-                    var ctrlSca = new window.BMap.ScaleControl({  
-                        anchor: BMAP_ANCHOR_BOTTOM_LEFT  
-                    });  
-                    map.addControl(ctrlSca);  
-  
-                    //第7步：绘制点    
-                    for (var i = 0; i < markerArr.length; i++) {  
-                        var p0 = markerArr[i].point.split(",")[0];  
-                        var p1 = markerArr[i].point.split(",")[1];  
-                        var maker = addMarker(new window.BMap.Point(p0, p1), i);  
-                        addInfoWindow(maker, markerArr[i], i);   
-                    }  
-                }  
-  
-                // 添加标注  
-                function addMarker(point, index) {  
-                    var myIcon = new BMap.Icon("http://api.map.baidu.com/img/markers.png",  
-                        new BMap.Size(23, 25), {  
-                            offset: new BMap.Size(10, 25),  
-                            imageOffset: new BMap.Size(0, 0 - index * 25)  
-                        });  
-                    var marker = new BMap.Marker(point, { icon: myIcon });  
-                    map.addOverlay(marker);  
-                    return marker;  
-                }  
-  
-                // 添加信息窗口  
-                function addInfoWindow(marker, poi) {  
-                    //pop弹窗标题   
-                    //pop弹窗信息  
-                    var html = [];  
-                    html.push('<table cellspacing="0" style="table-layout:fixed;width:100%;font:12px arial,simsun,sans-serif"><tbody>');  
-                    html.push('<tr>');  
-                    html.push('<td style="vertical-align:top;line-height:16px;width:38px;white-space:nowrap;word-break:keep-all">地址:</td>');  
-                    html.push('<td style="vertical-align:top;line-height:16px">' + poi.address + ' </td>');  
-                    html.push('</tr>');  
-                    html.push('</tbody></table>');  
-                    var infoWindow = new BMap.InfoWindow(html.join(""), {width: 200 });  
-  
-                    var openInfoWinFun = function () {  
-                        marker.openInfoWindow(infoWindow);  
-                    };  
-                    marker.addEventListener("click", openInfoWinFun);  
-                    return openInfoWinFun;  
-                }  
-  
-                //异步调用百度js  
-                function map_load() {  
-                    var load = document.createElement("script");  
-                    load.src = "http://api.map.baidu.com/api?v=1.4&callback=map_init";  
-                    document.body.appendChild(load);  
-                }  
-                window.onload = map_load;  
-            </script>  
-        </fieldset>  
-    </div>
-  <!-- End: Content --> 
+    <!-- Start: Content -->
+    <section id="content">
+        <div id="topbar" class="affix" style="margin-top: 20px;">
+            <ol class="breadcrumb">
+                <li><a href="<?php echo U("User/index");?>"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li class="active">修改密码</li>
+            </ol>
+        </div>
+        <div class="container">
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-10 col-lg-8 center-column">
+                    <form action="#" method="post" class="cmxform" enctype="multipart/form-data">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <div class="panel-title">编辑</div>
+                                <div class="panel-btns pull-right margin-left">
+                                    <a href="<?php echo U("User/index");?>"
+                                       class="btn btn-default btn-gradient dropdown-toggle"><span
+                                            class="glyphicon glyphicon-chevron-left"></span></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-md-7">
+                                    <div class="form-group">
+										<div class="input-group"><span class="input-group-addon">当前密码</span>
+                                            <input type="password" name="password" value=""
+                                                  placeholder="请输入当前密码" class="form-control">
+                                        </div>
+                                        <div class="input-group"><span class="input-group-addon">新密码&nbsp;&nbsp;&nbsp;</span>
+                                            <input type="password" name="newpassword" value="" placeholder="请输入新密码" 
+                                                   class="form-control">
+                                        </div>
+                                        <div class="input-group"><span class="input-group-addon">确认密码</span>
+                                            <input type="password" name="repassword" value=""
+                                                   class="form-control" placeholder="请再次输入密码" onblur="return checkPwd()">
+                                        </div>
+                                    </div>
+                                    </div>                                
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="form-group">
+                                        <input type="submit" value="提交" class="submit btn btn-blue" name="dosubmit">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <!-- End: Content -->
 </div>
-<!-- End: Main --> 
+<!-- End: Main -->
+
+<script type="text/javascript">
+   function checkPwd(){
+    var newpassword=$('input[name=newpassword]').val();
+    var repassword=$('input[name=repassword]').val();
+    if(newpassword!=repassword){
+        alert('两次密码输入不一致!');return false;
+    }
+   }
+</script>
 </body>
+
 </html>

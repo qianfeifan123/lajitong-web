@@ -56,6 +56,7 @@ class IndexController extends Controller {
      //            'address'=>''
      //        	)
 	    // 	);
+        #保存至数据库   
 	     for($i=0;$i<=count($datas);$i++){            
             $data['phone']= $datas[$i]['phone'];           
             $data['lat']= $datas[$i]['lat'];

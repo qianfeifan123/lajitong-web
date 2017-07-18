@@ -114,5 +114,37 @@ class UserController extends Controller {
 	   }
 	$this->display();
    }
+
+   public function detail(){
+   	$db=M('admin');
+   	$username=$_SESSION['username'];
+   	$detail=$db->where("username='$username'")->find();
+   	$this->assign('detail',$detail);
+   	$this->display();
+   }
+
+   public function updatePwd(){
+   	if(isset($_POST["dosubmit"])){
+		   $username = $_SESSION['username'];
+		   $password = I("post.password");
+		   $newpassword = I("post.newpassword");
+		   $repassword = I("post.repassword");
+		   $user = M("admin");
+		   $detail=$user->where("username='$username'")->find();
+		   $oldpwd=$detail['password'];
+		   $data['password']=$newpassword;
+		   if($password==$oldpwd && $newpassword==$repassword){
+		   	 $row = $user ->where("username='$username'")->save($data);
+			   if($row){
+				   alert('修改成功',U('Index/index'));
+			   }else{
+				   $this->error("修改失败！",U('User/updatePwd'));
+			   }
+		   }else{
+		   	$this->error('修改失败!',U('User/updatePwd'));
+		   } 
+	   }
+   	$this->display();
+   }
 }	
 ?>

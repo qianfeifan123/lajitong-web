@@ -48,7 +48,7 @@
     <div class="navbar-logo"><img src="__IMG__/logo.png" alt="logo" style="width:100%;"></div>
     </a> </div>
   <div class="pull-right header-btns">
-    <a class="user"><span class="glyphicons glyphicon-user"></span><?php echo $_SESSION['username'];?></a>
+    <a class="user" href="<?php echo U("User/detail");?>"><span class="glyphicons glyphicon-user"></span><?php echo $_SESSION['username'];?></a>
     <a href="<?php echo U("Login/logout");?>" class="btn btn-default btn-gradient"style="background:#14abd8;color:#f9f9f9;" type="button">退出</a>
   </div>
 </header>

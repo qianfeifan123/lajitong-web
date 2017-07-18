@@ -1,0 +1,68 @@
+<include file="public/headr" />
+    <!-- Start: Content -->
+    <section id="content">
+        <div id="topbar" class="affix" style="margin-top: 20px;">
+            <ol class="breadcrumb">
+                <li><a href="<?php echo U("User/index");?>"><span class="glyphicon glyphicon-home"></span></a></li>
+                <li class="active">修改密码</li>
+            </ol>
+        </div>
+        <div class="container">
+
+            <div class="row" style="margin-top: 20px;">
+                <div class="col-md-10 col-lg-8 center-column">
+                    <form action="#" method="post" class="cmxform" enctype="multipart/form-data">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <div class="panel-title">编辑</div>
+                                <div class="panel-btns pull-right margin-left">
+                                    <a href="<?php echo U("User/index");?>"
+                                       class="btn btn-default btn-gradient dropdown-toggle"><span
+                                            class="glyphicon glyphicon-chevron-left"></span></a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="col-md-7">
+                                    <div class="form-group">
+										<div class="input-group"><span class="input-group-addon">当前密码</span>
+                                            <input type="password" name="password" value=""
+                                                  placeholder="请输入当前密码" class="form-control">
+                                        </div>
+                                        <div class="input-group"><span class="input-group-addon">新密码&nbsp;&nbsp;&nbsp;</span>
+                                            <input type="password" name="newpassword" value="" placeholder="请输入新密码" 
+                                                   class="form-control">
+                                        </div>
+                                        <div class="input-group"><span class="input-group-addon">确认密码</span>
+                                            <input type="password" name="repassword" value=""
+                                                   class="form-control" placeholder="请再次输入密码" onblur="return checkPwd()">
+                                        </div>
+                                    </div>
+                                    </div>                                
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="form-group">
+                                        <input type="submit" value="提交" class="submit btn btn-blue" name="dosubmit">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <!-- End: Content -->
+</div>
+<!-- End: Main -->
+
+<script type="text/javascript">
+   function checkPwd(){
+    var newpassword=$('input[name=newpassword]').val();
+    var repassword=$('input[name=repassword]').val();
+    if(newpassword!=repassword){
+        alert('两次密码输入不一致!');return false;
+    }
+   }
+</script>
+</body>
+
+</html>
